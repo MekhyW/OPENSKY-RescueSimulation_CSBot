@@ -1,0 +1,6103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SM_AI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MotherBoardType>0</MotherBoardType>
+  <MotorConfigType>0</MotorConfigType>
+  <Varibles>
+    <GVar>
+      <Name>Duration</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SuperDuration</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>bGameEnd</Name>
+      <VarType>Bool</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>false</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>CurAction</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>CurGame</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SuperObj_Num</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SuperObj_X</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SuperObj_Y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>Teleport</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>LoadedObjects</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dA</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-100</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>Rosa</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>Vermelho</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>Preto</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>Ciano</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dBx</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>155</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dBy</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>140</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box1_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>240</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box1_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>245</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>target_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>target_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>target_angle</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box3_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box3_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dist_box1</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dist_box2</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>dist_box3</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>black_zone_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>300</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>black_zone_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>210</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>red_zone_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>20</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>cyan1_zone_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>130</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>cyan1_zone_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>190</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>cyan2_zone_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>115</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>cyan2_zone_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>40</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX1</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY1</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX2</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY2</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX3</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY3</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX4</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY4</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX5</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY5</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOX6</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>SOY6</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>-1</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>act</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box2_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>box2_y</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>0</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt1</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt2</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt3</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt4</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt5</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>distt6</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>1000</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+    <GVar>
+      <Name>red_zone_x</Name>
+      <VarType>Int16</VarType>
+      <ArraryLength>0</ArraryLength>
+      <InitialValue>225</InitialValue>
+      <ReadOnly>false</ReadOnly>
+    </GVar>
+  </Varibles>
+  <MB_Interface>
+    <InputPins>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Front Ultrasonic Sensor ( Pin: CCP 1). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Front</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>25</CompID>
+        <Pin>25</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Ultrasonic Sensor ( Pin: CCP 3). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Left</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>27</CompID>
+        <Pin>27</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Right Ultrasonic Sensor ( Pin: CCP 4). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Right</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>28</CompID>
+        <Pin>28</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC1) .  Red or Brightness Value.</Text>
+        <PictureFile />
+        <Name>CSLeft_R</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>33</CompID>
+        <Pin>31</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC2) .  Green Value</Text>
+        <PictureFile />
+        <Name>CSLeft_G</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>34</CompID>
+        <Pin>32</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC3) .  Blue Value</Text>
+        <PictureFile />
+        <Name>CSLeft_B</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>35</CompID>
+        <Pin>33</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC4) .  Red or Brightness Value</Text>
+        <PictureFile />
+        <Name>CSRight_R</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>36</CompID>
+        <Pin>34</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC5) .  Green Value</Text>
+        <PictureFile />
+        <Name>CSRight_G</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>37</CompID>
+        <Pin>35</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC5) .  Blue Value</Text>
+        <PictureFile />
+        <Name>CSRight_B</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>38</CompID>
+        <Pin>36</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>X Coordinate (Pin: INFO_3); Unit:cm </Text>
+        <PictureFile />
+        <Name>PositionX</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>47</CompID>
+        <Pin>41</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>Y Coordinate (Pin: INFO_3); Unit:cm</Text>
+        <PictureFile />
+        <Name>PositionY</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>48</CompID>
+        <Pin>42</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Teammate State (Pin:INFO_2).</Text>
+        <PictureFile />
+        <Name>TM_State</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>49</CompID>
+        <Pin>40</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>360</Max>
+        <Min>0</Min>
+        <Text>Compass( Pin : IO1 [DI/O1] ). Unit:Degree</Text>
+        <PictureFile />
+        <Name>Compass</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>51</CompID>
+        <Pin>51</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>Unit: second. Starting from Game Start.</Text>
+        <PictureFile />
+        <Name>Time</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>52</CompID>
+        <Pin>53</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+    </InputPins>
+    <OutputPins>
+      <PIN>
+        <Max>5</Max>
+        <Min>-5</Min>
+        <Text>Left Wheel ( Pin : Motor 1 [DUO]  ) </Text>
+        <PictureFile />
+        <Name>WheelLeft</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>6</CompID>
+        <Pin>1</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>5</Max>
+        <Min>-5</Min>
+        <Text>Right Wheel (Pin:  Motor 2 [DUO]  ) </Text>
+        <PictureFile />
+        <Name>WheelRight</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>7</CompID>
+        <Pin>3</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>2</Max>
+        <Min>0</Min>
+        <Text>LED 1( Pin: LED_1). 0:Off;1:Flash;2:On </Text>
+        <PictureFile />
+        <Name>LED_1</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>18</CompID>
+        <Pin>47</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>My State.Sent to teanmate once it is changed.</Text>
+        <PictureFile />
+        <Name>MyState</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>22</CompID>
+        <Pin>39</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+    </OutputPins>
+    <InputPin_LUT>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Front Ultrasonic Sensor ( Pin: CCP 1). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Front</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>25</CompID>
+        <Pin>25</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Ultrasonic Sensor ( Pin: CCP 3). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Left</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>27</CompID>
+        <Pin>27</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Right Ultrasonic Sensor ( Pin: CCP 4). Unit:cm</Text>
+        <PictureFile />
+        <Name>US_Right</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>28</CompID>
+        <Pin>28</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC1) .  Red or Brightness Value.</Text>
+        <PictureFile />
+        <Name>CSLeft_R</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>33</CompID>
+        <Pin>31</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC2) .  Green Value</Text>
+        <PictureFile />
+        <Name>CSLeft_G</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>34</CompID>
+        <Pin>32</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC3) .  Blue Value</Text>
+        <PictureFile />
+        <Name>CSLeft_B</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>35</CompID>
+        <Pin>33</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC4) .  Red or Brightness Value</Text>
+        <PictureFile />
+        <Name>CSRight_R</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>36</CompID>
+        <Pin>34</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC5) .  Green Value</Text>
+        <PictureFile />
+        <Name>CSRight_G</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>37</CompID>
+        <Pin>35</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Left Color Sensor(Pin: ADC5) .  Blue Value</Text>
+        <PictureFile />
+        <Name>CSRight_B</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>38</CompID>
+        <Pin>36</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>X Coordinate (Pin: INFO_3); Unit:cm </Text>
+        <PictureFile />
+        <Name>PositionX</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>47</CompID>
+        <Pin>41</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>Y Coordinate (Pin: INFO_3); Unit:cm</Text>
+        <PictureFile />
+        <Name>PositionY</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>48</CompID>
+        <Pin>42</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>Teammate State (Pin:INFO_2).</Text>
+        <PictureFile />
+        <Name>TM_State</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>49</CompID>
+        <Pin>40</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>360</Max>
+        <Min>0</Min>
+        <Text>Compass( Pin : IO1 [DI/O1] ). Unit:Degree</Text>
+        <PictureFile />
+        <Name>Compass</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>51</CompID>
+        <Pin>51</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>1000</Max>
+        <Min>0</Min>
+        <Text>Unit: second. Starting from Game Start.</Text>
+        <PictureFile />
+        <Name>Time</Name>
+        <VarType>Int16</VarType>
+        <bInOut>In</bInOut>
+        <CompID>52</CompID>
+        <Pin>53</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+    </InputPin_LUT>
+    <OutputPin_LUT>
+      <PIN>
+        <Max>5</Max>
+        <Min>-5</Min>
+        <Text>Left Wheel ( Pin : Motor 1 [DUO]  ) </Text>
+        <PictureFile />
+        <Name>WheelLeft</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>6</CompID>
+        <Pin>1</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>5</Max>
+        <Min>-5</Min>
+        <Text>Right Wheel (Pin:  Motor 2 [DUO]  ) </Text>
+        <PictureFile />
+        <Name>WheelRight</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>7</CompID>
+        <Pin>3</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>2</Max>
+        <Min>0</Min>
+        <Text>LED 1( Pin: LED_1). 0:Off;1:Flash;2:On </Text>
+        <PictureFile />
+        <Name>LED_1</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>18</CompID>
+        <Pin>47</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+      <PIN>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Text>My State.Sent to teanmate once it is changed.</Text>
+        <PictureFile />
+        <Name>MyState</Name>
+        <VarType>Int16</VarType>
+        <bInOut>Out</bInOut>
+        <CompID>22</CompID>
+        <Pin>39</Pin>
+        <bHideFromGUI>false</bHideFromGUI>
+      </PIN>
+    </OutputPin_LUT>
+  </MB_Interface>
+  <MainFunc>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Main</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </MainFunc>
+  <OnTimerFunc>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>OnTimer</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </OnTimerFunc>
+  <TeamName />
+  <SM_x0020_States />
+  <SM_x0020_Nodes />
+  <Game>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game0</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game>
+  <SM_x0020_Nodes0 />
+  <Game0>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game0</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game0>
+  <SM_x0020_Nodes1>
+    <Node1>
+      <Name>act == 3</Name>
+      <Level>1</Level>
+      <Index>1</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>act == 3</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (target_x == SOX1){
+ SOX1=-1;
+ distt1=1000;
+}
+if (target_x == SOX2){
+ SOX2=-1;
+ distt2=1000;
+}
+if (target_x == SOX3){
+ SOX3=-1;
+ distt3=1000;
+}
+if (target_x == SOX4){
+ SOX4=-1;
+ distt4=1000;
+}
+if (target_x == SOX5){
+ SOX5=-1;
+ distt5=1000;
+}
+if (target_x == SOX6){
+ SOX6=-6;
+ distt6=1000;
+}
+act = 1;
+Rosa++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Limites Direita</Name>
+      <Level>1</Level>
+      <Index>2</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>350</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (Compass &gt; 270 &amp;&amp; Compass &lt; 361) {
+ WheelRight = -1;
+ WheelLeft=-3;
+ }
+if (Compass &lt; 271 &amp;&amp; Compass &gt; 179) {
+ WheelRight = -3;
+ WheelLeft=-1;
+ }
+if (Compass &gt; -1 &amp;&amp; Compass &lt;180 ) {
+ WheelRight = 2;
+ WheelRight = 2;
+ }
+</Adv_Action>
+        <State_Action />
+        <Duration>3</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Limites Cima</Name>
+      <Level>1</Level>
+      <Index>3</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>260</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (Compass &gt; -1 &amp;&amp; Compass &lt; 91) {
+ WheelLeft = -3;
+ WheelRight=-1; 
+ }
+if (Compass &gt; 269 &amp;&amp; Compass &lt; 361) {
+ WheelRight = -3;
+ WheelLeft=-1;
+ }
+if (Compass &gt; 90 &amp;&amp; Compass &lt; 270) {
+ WheelRight = 2;
+ WheelRight = 2;
+ }
+</Adv_Action>
+        <State_Action />
+        <Duration>3</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Limites Esp armadilha</Name>
+      <Level>1</Level>
+      <Index>4</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>15</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>140</ValMin>
+            <ValMax>200</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>180</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>-5</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>6</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Limites Esquerda</Name>
+      <Level>1</Level>
+      <Index>4</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>15</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (PositionY&gt;140 &amp;&amp; PositionY&lt;200){
+ WheelLeft=1;
+ WheelRight=-5;
+}
+if (Compass &gt; 90 &amp;&amp; Compass &lt; 180) {
+ WheelLeft = -3;
+ }
+if (Compass &gt; -1 &amp;&amp; Compass &lt; 91) {
+ WheelRight = -3;
+ }
+if (Compass&gt; 180 &amp;&amp; Compass &lt; 360) {
+ WheelLeft = 5;
+ WheelRight = 5;
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>3</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Limes Baixo</Name>
+      <Level>1</Level>
+      <Index>5</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>15</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (Compass &gt; 179 &amp;&amp; Compass &lt; 270) {
+ WheelRight = 1;
+ WheelLeft=-3;
+ }
+if (Compass &gt; 90 &amp;&amp; Compass &lt; 180) {
+ WheelRight = -3;
+ WheelLeft=1;
+ }
+
+if (Compass&gt; 269 &amp;&amp; Compass &lt; 360) {
+ WheelLeft = 5;
+ WheelRight = 5;
+}
+if (Compass&gt; 0 &amp;&amp; Compass &lt; 91) {
+ WheelLeft = 5;
+ WheelRight = 5;
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito</Name>
+      <Level>1</Level>
+      <Index>6</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Preto &gt; 49 &amp;&amp; Ciano&gt;49 &amp;&amp; Vermelho&gt; 49</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Ciano = 0;
+Preto =0;
+Vermelho=0;
+Rosa=0;
+if (Time&gt; 210){
+act = 1;
+}</Adv_Action>
+        <State_Action />
+        <Duration>60</Duration>
+        <KeyAction>Deposit</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito Ajust Dir</Name>
+      <Level>1</Level>
+      <Index>7</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Preto &gt; 49 &amp;&amp; Ciano&gt;49 &amp;&amp; Vermelho&gt; 49</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito Ajust Esq</Name>
+      <Level>1</Level>
+      <Index>8</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Preto &gt; 49 &amp;&amp; Ciano&gt;49 &amp;&amp; Vermelho&gt; 49</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito</Name>
+      <Level>1</Level>
+      <Index>9</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Rosa&gt;0</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Ciano = 0;
+Preto =0;
+Vermelho=0;
+Rosa=0;
+</Adv_Action>
+        <State_Action />
+        <Duration>60</Duration>
+        <KeyAction>Deposit</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito Ajust Dir</Name>
+      <Level>1</Level>
+      <Index>10</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Rosa&gt;0</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Deposito Ajust Esq</Name>
+      <Level>1</Level>
+      <Index>11</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>180</ValMin>
+            <ValMax>220</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>100</ValMin>
+            <ValMax>125</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>50</ValMin>
+            <ValMax>70</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Rosa&gt;0</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Gravar rosas</Name>
+      <Level>1</Level>
+      <Index>12</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>SuperObj_X&gt;0 &amp;&amp; SuperObj_Y&gt;0</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (SOX1&lt;0){
+ SOX1= SuperObj_X;
+ SOY1= SuperObj_Y;
+}
+else {
+ if (SOX2&lt;0 &amp;&amp; SuperObj_X != SOX1){
+  SOX2 = SuperObj_X;
+  SOY2 = SuperObj_Y;
+ }
+ else {
+  if (SOX3&lt;0 &amp;&amp; SuperObj_X != SOX2 &amp;&amp; SuperObj_X != SOX1){
+   SOX3 = SuperObj_X;
+   SOY3 = SuperObj_Y;
+  }
+  else {
+   if (SOX4&lt;0 &amp;&amp; SuperObj_X != SOX3 &amp;&amp; SuperObj_X != SOX2 &amp;&amp; SuperObj_X != SOX1){
+    SOX4 = SuperObj_X;
+    SOY4 = SuperObj_Y;
+   }
+   else {
+    if (SOX5&lt;0 &amp;&amp; SuperObj_X != SOX4 &amp;&amp; SuperObj_X != SOX3 &amp;&amp; SuperObj_X != SOX2 &amp;&amp; SuperObj_X != SOX1){
+     SOX5 = SuperObj_X;
+     SOY5 = SuperObj_Y;
+    }
+    else {
+     if (SOX6&lt;0 &amp;&amp; SuperObj_X != SOX5 &amp;&amp; SuperObj_X != SOX4 &amp;&amp; SuperObj_X != SOX3 &amp;&amp; SuperObj_X != SOX2 &amp;&amp; SuperObj_X != SOX1){
+      SOX6 = SuperObj_X;
+      SOY6 = SuperObj_Y;
+act = 2;
+     }
+     else {
+     }
+    }
+   }
+  }
+ }
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Pretinho</Name>
+      <Level>1</Level>
+      <Index>13</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Preto &lt;99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Preto ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Pretinho</Name>
+      <Level>1</Level>
+      <Index>14</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>20</ValMin>
+            <ValMax>50</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Preto &lt; 99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Preto ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Vermelin</Name>
+      <Level>1</Level>
+      <Index>15</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>210</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>15</ValMin>
+            <ValMax>70</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>15</ValMin>
+            <ValMax>70</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Vermelho &lt; 99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Vermelho ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Vermelin</Name>
+      <Level>1</Level>
+      <Index>16</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>210</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>15</ValMin>
+            <ValMax>70</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>15</ValMin>
+            <ValMax>70</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Vermelho &lt; 99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Vermelho ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cian</Name>
+      <Level>1</Level>
+      <Index>17</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>15</ValMin>
+            <ValMax>70</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>230</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>230</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Ciano &lt; 99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Ciano ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cian</Name>
+      <Level>1</Level>
+      <Index>18</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>14</ValMin>
+            <ValMax>70</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>230</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>230</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects &lt; 6 &amp;&amp; Ciano &lt; 99</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>Ciano ++;</Adv_Action>
+        <State_Action />
+        <Duration>50</Duration>
+        <KeyAction>FindObject</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>US Dir e Esq</Name>
+      <Level>1</Level>
+      <Index>19</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>15</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>15</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (US_Front &lt; 25){
+ WheelLeft = -3;
+ WheelRight= -5;
+}
+if (US_Front &gt; 24){
+ WheelLeft = 5;
+ WheelRight= 5;
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>5</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>US Dir</Name>
+      <Level>1</Level>
+      <Index>20</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>13</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>-1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>US Esq</Name>
+      <Level>1</Level>
+      <Index>21</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>11</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>-1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>US Frente</Name>
+      <Level>1</Level>
+      <Index>22</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>15</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>-1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>US Lá na Frente</Name>
+      <Level>1</Level>
+      <Index>23</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>20</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (US_Left &gt;= US_Right) {
+ WheelLeft=2;
+ WheelRight=3;
+}
+if (US_Left &lt; US_Right) {
+ WheelLeft=3;
+ WheelRight=2;
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Trump removível especial arena de treino</Name>
+      <Level>1</Level>
+      <Index>24</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>1</ValMin>
+            <ValMax>111</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>65</ValMin>
+            <ValMax>185</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>10</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if (Compass&gt;89 &amp;&amp; Compass&lt; 181 &amp;&amp; PositionX&gt; 91){
+ //lateral da armadilha
+ WheelLeft = -4;
+ WheelRight=-1;
+}
+if (Compass&gt;-1 &amp;&amp; Compass&lt; 90 &amp;&amp; PositionX&gt; 91){
+ //lateral da armadilha
+ WheelLeft = -1;
+ WheelRight=-4;
+}
+if (Compass&gt;89 &amp;&amp; Compass&lt; 181 &amp;&amp; PositionY&gt;155){
+ //cima da armadilha
+ WheelRight=-4;
+ WheelLeft=-1;
+}
+if (Compass&gt;180 &amp;&amp; Compass&lt; 271 &amp;&amp; PositionY&lt;158){
+ //cima da armadilha
+ WheelRight=-2;
+ WheelLeft=-5;
+}
+if (Compass&gt;0 &amp;&amp; Compass&lt; 91 &amp;&amp; PositionY&lt; 85){
+ //baixo da armadilha
+ WheelRight=-1;
+ WheelLeft=-4;
+}
+if (Compass&gt;269 &amp;&amp; Compass&lt; 361 &amp;&amp; PositionY&lt; 85){
+ //baixo da armadilha
+ WheelRight=-4;
+ WheelLeft=-1;
+}
+if (Compass&gt;-1 &amp;&amp; Compass&lt; 1 &amp;&amp; PositionY&lt; 85){
+ //baixo da armadilha
+ WheelRight=-4;
+ WheelLeft=-1;
+}</Adv_Action>
+        <State_Action />
+        <Duration>2</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Ir pro depósito</Name>
+      <Level>1</Level>
+      <Index>31</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>LoadedObjects&gt;5</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if(box1_x != 0 || box1_y != 0){
+dist_box1 = sqrt(((box1_x - PositionX)*(box1_x - PositionX)) + ((box1_y - PositionY)*(box1_y - PositionY)));
+
+}
+if(box2_x != 0 || box2_y != 0){
+dist_box2 = sqrt(((box2_x - PositionX)*(box2_x - PositionX)) + ((box2_y - PositionY)*(box2_y - PositionY)));
+
+}
+if(box3_x != 0 || box3_y != 0){
+dist_box3 = sqrt(((box3_x - PositionX)*(box3_x - PositionX)) + ((box3_y - PositionY)*(box3_y - PositionY)));
+
+}
+
+
+if(dist_box1 &lt; dist_box2 &amp;&amp; dist_box1 &lt; dist_box3){
+target_x = box1_x;
+
+target_y = box1_y;
+
+}
+if(dist_box2 &lt; dist_box1 &amp;&amp; dist_box2 &lt; dist_box3){
+target_x = box2_x;
+
+target_y = box2_y;
+
+}
+if(dist_box3 &lt; dist_box1 &amp;&amp; dist_box3 &lt; dist_box2){
+target_x = box3_x;
+
+target_y = box3_y;
+
+}
+
+
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>ir para os rosas</Name>
+      <Level>1</Level>
+      <Index>25</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>act==1 &amp;&amp; LoadedObjects&lt; 6</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>0</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if(SOX1 &gt;0){
+distt1 = sqrt(((SOX1- PositionX)*(SOX1 - PositionX)) + ((SOY1 - PositionY)*(SOY1 - PositionY)));
+}
+if(SOX2 &gt;0){
+distt2 = sqrt(((SOX2- PositionX)*(SOX2 - PositionX)) + ((SOY2 - PositionY)*(SOY2 - PositionY)));
+}
+if(SOX3 &gt;0){
+distt3 = sqrt(((SOX3- PositionX)*(SOX3 - PositionX)) + ((SOY3 - PositionY)*(SOY3 - PositionY)));
+}
+if(SOX4 &gt;0){
+distt4 = sqrt(((SOX4- PositionX)*(SOX4 - PositionX)) + ((SOY4 - PositionY)*(SOY4 - PositionY)));
+}
+if(SOX5 &gt;0){
+distt5 = sqrt(((SOX5- PositionX)*(SOX5 - PositionX)) + ((SOY5 - PositionY)*(SOY5 - PositionY)));
+}
+if(SOX6 &gt;0){
+distt6 = sqrt(((SOX6- PositionX)*(SOX6 - PositionX)) + ((SOY6 - PositionY)*(SOY6 - PositionY)));
+}
+
+if(distt1 &lt; distt2 &amp;&amp; distt1 &lt; distt3 &amp;&amp; distt1 &lt; distt4 &amp; distt1&lt; distt5 &amp;&amp; distt1&lt; distt6){
+target_x = SOX1;
+
+target_y = SOY1;
+}
+
+if(distt2 &lt; distt1 &amp;&amp; distt2 &lt; distt3 &amp;&amp; distt2 &lt; distt4 &amp; distt2&lt; distt5 &amp;&amp; distt2&lt; distt6){
+target_x = SOX2;
+
+target_y = SOY2;
+}
+
+if(distt3 &lt; distt2 &amp;&amp; distt3 &lt; distt1 &amp;&amp; distt3 &lt; distt4 &amp; distt3&lt; distt5 &amp;&amp; distt3&lt; distt6){
+target_x = SOX3;
+
+target_y = SOY3;
+}
+
+if(distt4 &lt; distt2 &amp;&amp; distt4 &lt; distt3 &amp;&amp; distt4 &lt; distt1 &amp; distt4&lt; distt5 &amp;&amp; distt4&lt; distt6){
+target_x = SOX4;
+
+target_y = SOY4;
+}
+
+if(distt5 &lt; distt2 &amp;&amp; distt5 &lt; distt3 &amp;&amp; distt5 &lt; distt4 &amp; distt5&lt; distt1 &amp;&amp; distt5&lt; distt6){
+target_x = SOX5;
+
+target_y = SOY5;
+}
+
+if(distt6 &lt; distt2 &amp;&amp; distt6 &lt; distt3 &amp;&amp; distt6 &lt; distt4 &amp; distt6&lt; distt5 &amp;&amp; distt6&lt; distt1){
+target_x = SOX6;
+
+target_y = SOY6;
+}
+
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+if (sqrt(abs(PositionX-target_x)*abs(PositionX-target_x)+abs(PositionY-target_y)*abs(PositionY-target_y))&lt;20){
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 1;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 1;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 1;
+
+WheelRight = 3;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 1;
+
+WheelRight = 3;
+
+}
+}
+else{
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+}
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if(distt1&gt;999 &amp;&amp; distt2&gt;999 &amp;&amp; distt3 &gt; 999 &amp;&amp; distt4 &gt; 999 &amp;&amp; distt5 &gt; 999 &amp;&amp; distt6 &gt; 999){
+ act = 0;
+}
+if(PositionX&gt;target_x-6  &amp;&amp; PositionX &lt; target_x+6 &amp;&amp; PositionY&gt; target_y-6 &amp;&amp; PositionY&lt; target_y+6){
+ act=3;
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>BlackZone</Name>
+      <Level>1</Level>
+      <Index>26</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Preto&lt;1</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x = black_zone_x;
+target_y = black_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; black_zone_x-3 &amp;&amp; PositionX &lt; black_zone_x+3 &amp;&amp; PositionY&gt; black_zone_y-3 &amp;&amp; PositionY &lt; black_zone_y+3){
+Preto++; 
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cyan2Zone</Name>
+      <Level>1</Level>
+      <Index>27</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Ciano&lt;1</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= cyan2_zone_x;
+target_y=cyan2_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX== black_zone_x &amp;&amp; PositionY== black_zone_y){
+Ciano++;
+}
+if (PositionX&gt; cyan2_zone_x-3 &amp;&amp; PositionX &lt; cyan2_zone_x+3 &amp;&amp; PositionY&gt; cyan2_zone_y-3 &amp;&amp; PositionY &lt; cyan2_zone_y+3){
+Ciano++; 
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>RedZone</Name>
+      <Level>1</Level>
+      <Index>28</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Vermelho&lt;1</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= red_zone_x;
+target_y= red_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; red_zone_x-5 &amp;&amp; PositionX &lt; red_zone_x+5 &amp;&amp; PositionY&gt; red_zone_y-5 &amp;&amp; PositionY &lt; red_zone_y+5){
+Vermelho++; 
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cyan1Zone</Name>
+      <Level>1</Level>
+      <Index>29</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Ciano&lt;2</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= cyan1_zone_x;
+target_y=cyan1_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; cyan1_zone_x-3 &amp;&amp; PositionX &lt; cyan1_zone_x+3 &amp;&amp; PositionY&gt; cyan1_zone_y-3 &amp;&amp; PositionY &lt; cyan1_zone_y+3){
+Ciano++; 
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>BlackZone</Name>
+      <Level>1</Level>
+      <Index>30</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Preto&lt;3</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x = black_zone_x;
+target_y = black_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; black_zone_x-3 &amp;&amp; PositionX &lt; black_zone_x+3 &amp;&amp; PositionY&gt; black_zone_y-3 &amp;&amp; PositionY &lt; black_zone_y+3){
+Preto++; 
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cyan2Zone</Name>
+      <Level>1</Level>
+      <Index>27</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Ciano&lt;2</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= cyan2_zone_x;
+target_y=cyan2_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX== black_zone_x &amp;&amp; PositionY== black_zone_y){
+Ciano++;
+}
+if (PositionX&gt; cyan2_zone_x-3 &amp;&amp; PositionX &lt; cyan2_zone_x+3 &amp;&amp; PositionY&gt; cyan2_zone_y-3 &amp;&amp; PositionY &lt; cyan2_zone_y+3){
+Ciano++; 
+}
+</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>RedZone</Name>
+      <Level>1</Level>
+      <Index>28</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Vermelho&lt;2</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= red_zone_x;
+target_y= red_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; red_zone_x-5 &amp;&amp; PositionX &lt; red_zone_x+5 &amp;&amp; PositionY&gt; red_zone_y-5 &amp;&amp; PositionY &lt; red_zone_y+5){
+Vermelho++; 
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Cyan1Zone</Name>
+      <Level>1</Level>
+      <Index>29</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Ciano&lt;3</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>target_x= cyan1_zone_x;
+target_y=cyan1_zone_y;
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}
+if (PositionX&gt; cyan1_zone_x-3 &amp;&amp; PositionX &lt; cyan1_zone_x+3 &amp;&amp; PositionY&gt; cyan1_zone_y-3 &amp;&amp; PositionY &lt; cyan1_zone_y+3){
+Ciano++; 
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Ir pro depósito</Name>
+      <Level>1</Level>
+      <Index>31</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State>Vermelho&gt;49 &amp;&amp; Ciano&gt; 49 &amp;&amp; Preto&gt; 49 &amp;&amp; LoadedObjects&gt;3</Adv_State>
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>1</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>1</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if(box1_x != 0 || box1_y != 0){
+dist_box1 = sqrt(((box1_x - PositionX)*(box1_x - PositionX)) + ((box1_y - PositionY)*(box1_y - PositionY)));
+
+}
+if(box2_x != 0 || box2_y != 0){
+dist_box2 = sqrt(((box2_x - PositionX)*(box2_x - PositionX)) + ((box2_y - PositionY)*(box2_y - PositionY)));
+
+}
+if(box3_x != 0 || box3_y != 0){
+dist_box3 = sqrt(((box3_x - PositionX)*(box3_x - PositionX)) + ((box3_y - PositionY)*(box3_y - PositionY)));
+
+}
+
+
+if(dist_box1 &lt; dist_box2 &amp;&amp; dist_box1 &lt; dist_box3){
+target_x = box1_x;
+
+target_y = box1_y;
+
+}
+if(dist_box2 &lt; dist_box1 &amp;&amp; dist_box2 &lt; dist_box3){
+target_x = box2_x;
+
+target_y = box2_y;
+
+}
+if(dist_box3 &lt; dist_box1 &amp;&amp; dist_box3 &lt; dist_box2){
+target_x = box3_x;
+
+target_y = box3_y;
+
+}
+
+
+if(PositionX != 0 || PositionY != 0){
+target_angle = atan2((target_y - PositionY), (target_x - PositionX)) * 57.2957795131 - 90;
+
+}
+if(target_angle &lt; 0){
+target_angle = 360 + target_angle;
+
+}
+
+
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 5;
+
+WheelRight = 3;
+
+}
+if(Compass &gt; target_angle &amp;&amp; abs(Compass - 360 - target_angle) &lt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(Compass &lt; target_angle &amp;&amp; abs(Compass + 360 - target_angle) &gt;= abs(Compass - target_angle)){
+WheelLeft = 3;
+
+WheelRight = 5;
+
+}
+if(sqrt(((target_x - PositionX)*(target_x - PositionX)) + ((target_y - PositionY)*(target_y - PositionY))) &lt;= 80){
+
+
+if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &lt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &gt;= 180))){
+WheelLeft = -2;
+WheelRight = 2;
+} else if(abs(target_angle-Compass)&gt;=50 &amp;&amp; ((target_angle &gt;= Compass &amp;&amp; target_angle-Compass &gt;= 180) || (target_angle &lt;= Compass &amp;&amp; target_angle-Compass &lt;= 180))){
+WheelLeft = 2;
+WheelRight = -2;
+}
+
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>000</Name>
+      <Level>1</Level>
+      <Index>32</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>0</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>0</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>2</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>2</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action />
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+    <Node1>
+      <Name>Anddaar</Name>
+      <Level>1</Level>
+      <Index>33</Index>
+      <IsLeaf>true</IsLeaf>
+      <State>
+        <Sensores_x0020_Ranage>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>0</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>1</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>2</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>3</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>4</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>5</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>6</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>7</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>8</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>9</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>10</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>255</ValMax>
+            <index>11</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>360</ValMax>
+            <index>12</index>
+          </Sennsor>
+          <Sennsor>
+            <ValMin>0</ValMin>
+            <ValMax>1000</ValMax>
+            <index>13</index>
+          </Sennsor>
+        </Sensores_x0020_Ranage>
+        <Adv_State />
+        <AndOr>&amp;&amp;</AndOr>
+      </State>
+      <Action>
+        <Actions>
+          <Action>
+            <val>5</val>
+            <index>0</index>
+          </Action>
+          <Action>
+            <val>5</val>
+            <index>1</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>2</index>
+          </Action>
+          <Action>
+            <val>0</val>
+            <index>3</index>
+          </Action>
+        </Actions>
+        <type>Default</type>
+        <Adv_Action>if(Time&gt; 240 &amp;&amp; LoadedObjects&lt;1 &amp;&amp; act == 0){
+ act = 1;
+}</Adv_Action>
+        <State_Action />
+        <Duration>1</Duration>
+        <KeyAction>None</KeyAction>
+      </Action>
+    </Node1>
+  </SM_x0020_Nodes1>
+  <Game1>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game1</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game1>
+  <SM_x0020_Nodes2 />
+  <Game2>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game2</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game2>
+  <SM_x0020_Nodes3 />
+  <Game3>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game3</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game3>
+  <SM_x0020_Nodes4 />
+  <Game4>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game4</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game4>
+  <SM_x0020_Nodes5 />
+  <Game5>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game5</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game5>
+  <SM_x0020_Nodes6 />
+  <Game6>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game6</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game6>
+  <SM_x0020_Nodes7 />
+  <Game7>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game7</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game7>
+  <SM_x0020_Nodes8 />
+  <Game8>
+    <Variables />
+    <Statements />
+    <ParameterDesps />
+    <Name>Game8</Name>
+    <ReturnType>Void</ReturnType>
+    <FuncType>Fixed</FuncType>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+  </Game8>
+  <ProjectName>The New 1.8    r</ProjectName>
+  <ProjectFolder>C:\Users\GUSTAVO AURELIO\Microsoft Robotics Dev Studio 4\CS\User\Rescue\CsBot\The New 1.8    r\</ProjectFolder>
+  <RobotID>02</RobotID>
+  <IRD_Threshold1>0</IRD_Threshold1>
+  <IRD_Threshold2>0</IRD_Threshold2>
+  <DefinedWords>
+    <Word>abstract</Word>
+    <Word>event</Word>
+    <Word>new</Word>
+    <Word>struct</Word>
+    <Word>as</Word>
+    <Word>explicit</Word>
+    <Word>null</Word>
+    <Word>switch</Word>
+    <Word>base</Word>
+    <Word>extern</Word>
+    <Word>object</Word>
+    <Word>this</Word>
+    <Word>bool</Word>
+    <Word>false</Word>
+    <Word>operator</Word>
+    <Word>throw</Word>
+    <Word>break</Word>
+    <Word>finally</Word>
+    <Word>out</Word>
+    <Word>true</Word>
+    <Word>byte</Word>
+    <Word>fixed</Word>
+    <Word>override</Word>
+    <Word>try</Word>
+    <Word>case</Word>
+    <Word>float</Word>
+    <Word>params</Word>
+    <Word>typeof</Word>
+    <Word>catch</Word>
+    <Word>for</Word>
+    <Word>private</Word>
+    <Word>uint</Word>
+    <Word>char</Word>
+    <Word>foreach</Word>
+    <Word>protected</Word>
+    <Word>ulong</Word>
+    <Word>checked</Word>
+    <Word>goto</Word>
+    <Word>public</Word>
+    <Word>unchecked</Word>
+    <Word>class</Word>
+    <Word>if</Word>
+    <Word>readonly</Word>
+    <Word>unsafe</Word>
+    <Word>const</Word>
+    <Word>implicit</Word>
+    <Word>ref</Word>
+    <Word>ushort</Word>
+    <Word>continue</Word>
+    <Word>in</Word>
+    <Word>return</Word>
+    <Word>using</Word>
+    <Word>decimal</Word>
+    <Word>int</Word>
+    <Word>sbyte</Word>
+    <Word>virtual</Word>
+    <Word>default</Word>
+    <Word>interface</Word>
+    <Word>sealed</Word>
+    <Word>volatile</Word>
+    <Word>delegate</Word>
+    <Word>internal</Word>
+    <Word>short</Word>
+    <Word>void</Word>
+    <Word>do</Word>
+    <Word>is</Word>
+    <Word>sizeof</Word>
+    <Word>while</Word>
+    <Word>double</Word>
+    <Word>lock</Word>
+    <Word>stackalloc</Word>
+    <Word>else</Word>
+    <Word>long</Word>
+    <Word>static</Word>
+    <Word>enum</Word>
+    <Word>namespace</Word>
+    <Word>string</Word>
+    <Word>abstract</Word>
+    <Word>event</Word>
+    <Word>new</Word>
+    <Word>struct</Word>
+    <Word>as</Word>
+    <Word>explicit</Word>
+    <Word>null</Word>
+    <Word>switch</Word>
+    <Word>base</Word>
+    <Word>extern</Word>
+    <Word>object</Word>
+    <Word>this</Word>
+    <Word>bool</Word>
+    <Word>false</Word>
+    <Word>operator</Word>
+    <Word>throw</Word>
+    <Word>break</Word>
+    <Word>finally</Word>
+    <Word>out</Word>
+    <Word>true</Word>
+    <Word>byte</Word>
+    <Word>fixed</Word>
+    <Word>override</Word>
+    <Word>try</Word>
+    <Word>case</Word>
+    <Word>float</Word>
+    <Word>params</Word>
+    <Word>typeof</Word>
+    <Word>catch</Word>
+    <Word>for</Word>
+    <Word>private</Word>
+    <Word>uint</Word>
+    <Word>char</Word>
+    <Word>foreach</Word>
+    <Word>protected</Word>
+    <Word>ulong</Word>
+    <Word>checked</Word>
+    <Word>goto</Word>
+    <Word>public</Word>
+    <Word>unchecked</Word>
+    <Word>class</Word>
+    <Word>if</Word>
+    <Word>readonly</Word>
+    <Word>unsafe</Word>
+    <Word>const</Word>
+    <Word>implicit</Word>
+    <Word>ref</Word>
+    <Word>ushort</Word>
+    <Word>continue</Word>
+    <Word>in</Word>
+    <Word>return</Word>
+    <Word>using</Word>
+    <Word>decimal</Word>
+    <Word>int</Word>
+    <Word>sbyte</Word>
+    <Word>virtual</Word>
+    <Word>default</Word>
+    <Word>interface</Word>
+    <Word>sealed</Word>
+    <Word>volatile</Word>
+    <Word>delegate</Word>
+    <Word>internal</Word>
+    <Word>short</Word>
+    <Word>void</Word>
+    <Word>do</Word>
+    <Word>is</Word>
+    <Word>sizeof</Word>
+    <Word>while</Word>
+    <Word>double</Word>
+    <Word>lock</Word>
+    <Word>stackalloc</Word>
+    <Word>else</Word>
+    <Word>long</Word>
+    <Word>static</Word>
+    <Word>enum</Word>
+    <Word>namespace</Word>
+    <Word>string</Word>
+  </DefinedWords>
+</SM_AI>

@@ -32,7 +32,7 @@ This software is only supported on machines running Windows.
 5. Launch CSBot and load one of the provided DLL files on one or both robots. Click the play button to run
 6. The codes can be inspected, recalibrated and rebuilt directly from inside the program, simply open it´s .smp file and the logic will be displayed 
 
-![OpenSky Team](WhatsApp Image 2020-02-24 at 12.38.27.jpeg)
+![OpenSky Team](teamImage.jpeg)
 
 ## Where to Find Me:
 

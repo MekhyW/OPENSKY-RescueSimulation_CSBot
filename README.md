@@ -19,7 +19,7 @@ A few IEEE-format archives detailing universal strategies were developed by the 
 
 [CHS Controller](http://sistemaolimpo.org/midias/uploads/f8409cfaa5211f89f25c9af680db65f5.pdf) --> 1st Place at the Latin American Robotics Competion 2015, participated in RoboCup World Championship 2016 in Leipzig, Germany
 
-[OpenSky Prime](http://sistemaolimpo.org/midias/uploads/efb6c0975f7a15c687580f62b063180f.pdf) ---> 1st Place at the Latin American Robotics Competition 2016, participated in RoboCup World Championship 2016 in Nagoya, Japan
+[OpenSky Prime](http://sistemaolimpo.org/midias/uploads/efb6c0975f7a15c687580f62b063180f.pdf) ---> 1st Place at the Latin American Robotics Competition 2016, participated in RoboCup World Championship 2017 in Nagoya, Japan
 
 ## How to Play with it?
 
